@@ -1,7 +1,14 @@
+html {
+  background-color: rgb(150, 207, 207);
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(207, 207, 187);
+  background: no-repeat center/100% url("clouds.png");
   border: 1 px #4c5258;
+  margin: 0;
+  padding: 0;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -9,7 +16,7 @@ body {
 }
 .weather-app {
   padding: 20 px;
-  border: 1 px solid #4c5258;
+  border: 1 px solid #8ac3ca;
   border-radius: 5px;
 }
 
@@ -55,8 +62,8 @@ body {
 }
 .weatherDetailes {
   color: black;
-  background-color: rgb(201, 196, 190);
+  background-color: rgb(159, 233, 236);
 }
 .container {
-  border-radius: 1px #4c5258;
+  border-radius: 1px #a0d1cb;
 }
